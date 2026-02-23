@@ -1,0 +1,8 @@
+{
+  "/administrator/page": "app/administrator/page.js",
+  "/administrator/add-subject/page": "app/administrator/add-subject/page.js",
+  "/administrator/site-settings/page": "app/administrator/site-settings/page.js",
+  "/administrator/users/page": "app/administrator/users/page.js",
+  "/administrator/users/[id]/page": "app/administrator/users/[id]/page.js",
+  "/administrator/add-course/page": "app/administrator/add-course/page.js"
+}
