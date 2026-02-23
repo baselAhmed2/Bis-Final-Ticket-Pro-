@@ -21,15 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/administrator/layout.js"
     ],
-    "/administrator/tickets/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/administrator/tickets/page.js"
-    ],
     "/administrator/users/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/administrator/users/page.js"
+    ],
+    "/administrator/new-user/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/administrator/new-user/page.js"
     ],
     "/student/page": [
       "static/chunks/webpack.js",
@@ -41,65 +41,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/student/layout.js"
     ],
-    "/student/ticket/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/student/ticket/[id]/page.js"
-    ],
     "/student/new-ticket/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/student/new-ticket/page.js"
     ],
-    "/doctor/page": [
+    "/administrator/tickets/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/doctor/page.js"
+      "static/chunks/app/administrator/tickets/page.js"
     ],
-    "/doctor/layout": [
+    "/administrator/ticket/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/doctor/layout.js"
-    ],
-    "/doctor/ticket/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/doctor/ticket/[id]/page.js"
-    ],
-    "/doctor/my-courses/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/doctor/my-courses/page.js"
-    ],
-    "/doctor/tickets/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/doctor/tickets/page.js"
-    ],
-    "/administrator/analysis/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/administrator/analysis/page.js"
-    ],
-    "/administrator/add-course/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/administrator/add-course/page.js"
-    ],
-    "/administrator/site-settings/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/administrator/site-settings/page.js"
+      "static/chunks/app/administrator/ticket/[id]/page.js"
     ],
     "/administrator/add-subject/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/administrator/add-subject/page.js"
     ],
-    "/administrator/ticket/[id]/page": [
+    "/administrator/add-course/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/administrator/ticket/[id]/page.js"
+      "static/chunks/app/administrator/add-course/page.js"
+    ],
+    "/administrator/analysis/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/administrator/analysis/page.js"
     ],
     "/administrator/users/[id]/page": [
       "static/chunks/webpack.js",
