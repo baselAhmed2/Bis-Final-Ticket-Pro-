@@ -1,10 +1,8 @@
 {
   "/page": "app/page.js",
   "/administrator/page": "app/administrator/page.js",
-  "/administrator/new-user/page": "app/administrator/new-user/page.js",
-  "/administrator/users/page": "app/administrator/users/page.js",
   "/administrator/users/[id]/page": "app/administrator/users/[id]/page.js",
   "/administrator/analysis/page": "app/administrator/analysis/page.js",
-  "/administrator/add-subject/page": "app/administrator/add-subject/page.js",
-  "/administrator/tickets/page": "app/administrator/tickets/page.js"
+  "/student/page": "app/student/page.js",
+  "/student/new-ticket/page": "app/student/new-ticket/page.js"
 }
