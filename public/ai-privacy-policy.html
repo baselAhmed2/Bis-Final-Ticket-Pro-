@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Use of Artificial Intelligence & Privacy Policy - La Cassia Clinica</title>
+  <meta name="description" content="Policy on the Use of Artificial Intelligence and Privacy for Automated Appointment Booking at La Cassia Clinica." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.lacassia.tech/ai-privacy-policy.html" />
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Use of Artificial Intelligence & Privacy Policy - La Cassia Clinica" />
+  <meta property="og:description" content="Policy on the Use of Artificial Intelligence and Privacy for Automated Appointment Booking at La Cassia Clinica." />
+  <meta property="og:url" content="https://www.lacassia.tech/ai-privacy-policy.html" />
+  <meta property="og:image" content="https://www.lacassia.tech/og-cover.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+
+  <style>
+    :root {
+      --ink: #271024;
+      --ink-soft: #634d5f;
+      --plum: #82378C;
+      --berry: #9A41A5;
+      --berry-dark: #5E2665;
+      --blush: #fbf5fa;
+      --blush-deep: #edd6ea;
+      --ivory: #fcf8fb;
+      --card-bg: #ffffff;
+      --line: rgba(130, 55, 140, 0.12);
+      --shadow: 0 20px 50px rgba(94, 38, 101, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--ivory);
+      color: var(--ink);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 60px;
+    }
+
+    /* Header Navbar */
+    header {
+      background: rgba(252, 248, 251, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--ink);
+    }
+
+    .brand-logo img {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid var(--line);
+    }
+
+    .brand-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      color: var(--berry-dark);
+    }
+
+    .back-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--plum);
+      text-decoration: none;
+      transition: color 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .back-link:hover {
+      color: var(--berry-dark);
+      text-decoration: underline;
+    }
+
+    /* Main Content Container */
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 24px;
+    }
+
+    .hero-banner {
+      background: linear-gradient(135deg, var(--berry-dark) 0%, var(--plum) 100%);
+      color: #ffffff;
+      padding: 48px 40px;
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      margin-bottom: 36px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-banner::after {
+      content: "";
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 300px;
+      height: 300px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero-banner h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.6rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .last-updated {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.18);
+      padding: 6px 16px;
+      border-radius: 30px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+
+    /* AI Highlight Banner */
+    .ai-highlight-card {
+      background: linear-gradient(135deg, var(--blush) 0%, #ffffff 100%);
+      border: 1px solid var(--blush-deep);
+      border-left: 6px solid var(--plum);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 32px;
+      box-shadow: var(--shadow);
+    }
+
+    .ai-highlight-card h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--berry-dark);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .ai-highlight-card p {
+      color: var(--ink-soft);
+      font-size: 1.05rem;
+      margin-bottom: 16px;
+    }
+
+    .ai-highlight-card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .ai-highlight-card ul li {
+      position: relative;
+      padding-left: 28px;
+      margin-bottom: 12px;
+      color: var(--ink);
+      font-size: 1rem;
+    }
+
+    .ai-highlight-card ul li::before {
+      content: "✓";
+      position: absolute;
+      left: 6px;
+      top: 0;
+      color: var(--plum);
+      font-weight: bold;
+    }
+
+    /* Policy Sections */
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .section-card:hover {
+      box-shadow: 0 24px 60px rgba(94, 38, 101, 0.12);
+    }
+
+    .section-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--berry-dark);
+      margin-bottom: 16px;
+      border-bottom: 2px solid var(--blush-deep);
+      padding-bottom: 8px;
+    }
+
+    .section-card p {
+      color: var(--ink-soft);
+      margin-bottom: 14px;
+      font-size: 1rem;
+    }
+
+    .section-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-card ul {
+      list-style: none;
+      margin-top: 12px;
+      margin-bottom: 16px;
+      padding-left: 4px;
+    }
+
+    .section-card ul li {
+      position: relative;
+      padding-left: 28px;
+      margin-bottom: 10px;
+      color: var(--ink-soft);
+    }
+
+    .section-card ul li::before {
+      content: "•";
+      position: absolute;
+      left: 8px;
+      top: 0;
+      color: var(--berry);
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+
+    .contact-box {
+      background: var(--blush);
+      border: 1px dashed var(--plum);
+      border-radius: 16px;
+      padding: 24px;
+      margin-top: 16px;
+    }
+
+    .contact-box p {
+      margin-bottom: 8px !important;
+      color: var(--ink) !important;
+    }
+
+    .contact-box a {
+      color: var(--plum);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      max-width: 900px;
+      margin: 40px auto 0;
+      padding: 24px;
+      text-align: center;
+      color: var(--ink-soft);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--line);
+    }
+
+    footer a {
+      color: var(--plum);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .hero-banner {
+        padding: 32px 24px;
+      }
+      .hero-banner h1 {
+        font-size: 2rem;
+      }
+      .section-card, .ai-highlight-card {
+        padding: 24px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="https://www.lacassia.tech/" class="brand-logo">
+        <img src="/la-cassia-logo.jpg" alt="La Cassia Clinica Logo" />
+        <span class="brand-name">LA CASSIA CLINICA</span>
+      </a>
+      <a href="https://www.lacassia.tech/" class="back-link">
+        &larr; Back to Main Website
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero-banner">
+      <h1>Use of Artificial Intelligence & Privacy Policy</h1>
+      <span class="last-updated">Last updated: October 10, 2026</span>
+    </div>
+
+    <!-- AI Notice Section -->
+    <div class="ai-highlight-card">
+      <h2>✨ Use of Artificial Intelligence</h2>
+      <p>Our service uses an artificial intelligence (AI) system to understand your messages and generate automated replies. Please note:</p>
+      <ul>
+        <li><strong>Message Processing:</strong> Your messages are sent to the AI system only to generate a reply to you.</li>
+        <li><strong>No AI Model Training:</strong> The AI system does not retain your personal data for its own use, and your data is not used to train AI models.</li>
+        <li><strong>Purpose Limitation:</strong> The AI is used only for the purpose of helping you book your appointment and answering your inquiries.</li>
+      </ul>
+      <p style="margin-top: 16px; margin-bottom: 0;"><strong>Sharing Notice:</strong> We do not share your information with third parties, except service providers that host the service on our behalf (such as Amazon Web Services), the AI service providers described above, and Meta Platforms, which carries the messages.</p>
+    </div>
+
+    <!-- Main Privacy Policy Sections -->
+    <div class="section-card">
+      <h2 class="section-title">Privacy Policy Overview</h2>
+      <p><strong>La Cassia Clinica</strong> (“we”, “us”) operates an automated messaging service on Facebook Messenger that helps you book an appointment. This policy explains how we handle your information.</p>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">What We Collect</h2>
+      <p>When you message our Page, we receive your Facebook name, your Page-scoped ID (PSID), and the details you send us in the conversation (such as your name, phone number, and preferred appointment time).</p>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">How We Use It</h2>
+      <ul>
+        <li>The information you provide is used only to book and manage your appointment.</li>
+        <li>Your data is stored the same way as your regular Page messages, as part of your conversation with our Page.</li>
+        <li>We do not use your data for any other purpose.</li>
+        <li>We do not use your data for advertising, and we do not sell or share it with anyone for marketing.</li>
+        <li>We will never use your information for anything else without your explicit permission.</li>
+      </ul>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">Data Sharing</h2>
+      <p>We do not share your information with third parties, except service providers that host the service on our behalf (such as Amazon Web Services), AI service providers used to generate automated responses, and Meta Platforms, which carries the messages.</p>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">Security</h2>
+      <p>We protect your data with encrypted connections (HTTPS) and restricted access, and we take reasonable technical and organizational measures to keep it safe.</p>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">Retention and Deletion</h2>
+      <p>We keep your data only as long as needed to manage your appointment. You can ask us to delete it at any time by emailing <a href="mailto:privacy@lacassia.tech" style="color: var(--plum); font-weight: 600;">privacy@lacassia.tech</a> (or <a href="mailto:info@lacassia.tech" style="color: var(--plum); font-weight: 600;">info@lacassia.tech</a>) with the subject <strong>“Data Deletion Request”</strong> and your Facebook name. We will delete it within 30 days and confirm by email.</p>
+    </div>
+
+    <div class="section-card">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-box">
+        <p><strong>La Cassia Clinica</strong></p>
+        <p>Email: <a href="mailto:privacy@lacassia.tech">privacy@lacassia.tech</a> / <a href="mailto:info@lacassia.tech">info@lacassia.tech</a></p>
+        <p>Website: <a href="https://www.lacassia.tech/" target="_blank">https://www.lacassia.tech/</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 La Cassia Clinica. All rights reserved. | <a href="/privacy-policy.html">Privacy Policy</a> | <a href="https://www.lacassia.tech/">La Cassia Website</a></p>
+  </footer>
+
+</body>
+</html>

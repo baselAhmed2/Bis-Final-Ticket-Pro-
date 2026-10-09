@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/ai-privacy-policy", "destination": "/ai-privacy-policy.html" },
+    { "source": "/branches/(.*)", "destination": "/branches/$1" },
+    { "source": "/services/(.*)", "destination": "/services/$1" }
+  ]
+}
