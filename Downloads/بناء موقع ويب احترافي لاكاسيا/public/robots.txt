@@ -1,0 +1,53 @@
+# Allow all standard search engines
+User-agent: *
+Allow: /
+
+# OpenAI (ChatGPT, SearchGPT, GPTBot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude, Claude-Web)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI (PerplexityBot)
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI & Gemini (Google-Extended, GoogleOther)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Apple Intelligence (Applebot, Applebot-Extended)
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Sitemaps & LLM Knowledge Sources
+Sitemap: https://www.lacassia.tech/sitemap.xml
+# LLMs.txt for Generative Engine Optimization (GEO)
+https://www.lacassia.tech/llms.txt
